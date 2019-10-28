@@ -69,10 +69,14 @@ void GetLine3()
 {
     u8g2.setCursor(0,34);
     u8g2.print(Moisture1Value);
+    u8g2.print(" / ");
+    u8g2.print(MoistureLimit1);
 //    //u8g2.setCursor(30,34);
 //    u8g2.print(" *C --> ");
     u8g2.setCursor(64,34);
     u8g2.print(Moisture2Value);
+    u8g2.print(" / ");
+    u8g2.print(MoistureLimit2);
 //    //u8g2.setCursor(68,34);
 //    u8g2.print(" *f ");
     //u8g2.print("012345678901234567890"); 
